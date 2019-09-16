@@ -1,0 +1,172 @@
+@media (min-width: 786px) {
+
+body {font-family: 'Fira Sans', sans-serif;
+  background: #F0ECEE;
+  font-weight: 600;
+  margin-left: 2%;
+  display:flex;
+  flex-direction:column;
+
+ 
+}
+
+body {background-image: url("bulldog.jpg");background-color: #cccccc;
+  height:100%;
+  background-position:flex;
+  background-repeat: no-repeat;
+  background-size:100%;
+  position: top;
+}
+
+
+button {background-color: #FF4850; padding: 10px;
+  border-radius: 15px;
+  color: white;
+}
+
+button:hover {color:#CCC;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.Adopt{flex:2;
+  order:1;
+  font-weight: 400;
+}
+
+header {background: #F0ECEE;
+  margin-bottom: 10%;
+}
+
+
+.R{color: #FF4850;
+}
+
+nav {flex:1;
+  order:2;
+  font-weight: 300;  
+}
+
+nav ul {display: flex;
+  list-style: none;
+  align-items:center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+
+nav a {display: flex;
+  color: #88898B;
+  text-decoration: none;
+  font-size: 14px;
+  justify-content: space-between;
+  flex:1;
+}
+
+nav a:hover {
+  color: #FF4850;
+}
+
+.Lower{display: flex;
+  flex-direction: column;
+  justify-content:flex-start;
+}
+
+p{color: #88898B;
+  font-weight: 300;
+  flex:1;
+  }
+
+
+h2{font-weight: 600;
+  flex:1;
+  align-content: flex-start;
+  flex-wrap: wrap;
+}
+.Long{flex:1;
+justify-content: flex-start;
+margin-right: 90%;
+}
+
+.drop{display: table;
+}
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 785px) {
+
+body {font-family: 'Fira Sans', sans-serif;
+  background: #F0ECEE;
+  font-weight: 600;
+  margin-left: 2%;
+  display:flex;
+  flex-direction:column;
+}
+
+button {
+  background-color: #FF4850; padding: 10px;
+  border-radius: 15px;
+  color: white;
+  box-sizing: border-box;
+width: 100%;
+}
+
+button:hover {color:#CCC;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+}
+
+header {background: #F0ECEE;
+}
+
+.R{color: #FF4850;
+}
+
+nav {flex:2;
+  font-weight: 300;
+}
+
+nav ul {
+  display:flex;
+  flex-direction: column;
+  list-style: none;
+  padding-inline-start:0px;
+}
+
+nav li{margin: 2%; }
+
+nav a {display: flex;
+  color: #88898B;
+  text-decoration: none;
+  font-size: 14px;
+  padding:10%
+  flex-wrap:nowrap;
+}
+
+.mobile{display: table;}
+
+
+
+p{color: #88898B;
+  font-weight: 300;
+  flex:1;
+}
+}
