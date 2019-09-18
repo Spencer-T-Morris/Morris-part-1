@@ -1,4 +1,4 @@
-@media (min-width: 786px) {
+@media (min-width: 768px) {
 
 body {font-family: 'Fira Sans', sans-serif;
   background: #F0ECEE;
@@ -108,7 +108,7 @@ margin-right: 90%;
 
 
 
-@media (max-width: 785px) {
+@media (max-width: 768px) {
 
 body {font-family: 'Fira Sans', sans-serif;
   background: #F0ECEE;
